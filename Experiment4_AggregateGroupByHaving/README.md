@@ -37,11 +37,11 @@ HAVING condition;
 ```
 
 **Question 1**
---
+```
 What is the average dosage prescribed for each medication?
 
 Sample tablePrescriptions Table
-```
+
 Medication     AvgDosage
 -------------  ----------
 Ciprofloxacin  500.0
@@ -75,9 +75,9 @@ GROUP BY
 **Question 2**
 ---
 How many patients are there in each city?
-```
-Sample table: Patients Table
 
+Sample table: Patients Table
+```
 Address     TotalPatients
 ----------  -------------
 Berlin      3
@@ -110,7 +110,6 @@ PatientID   AvgMedications
 6           1
 7           1
 8           3
-
 ```
 ```
 SELECT PatientID,COUNT(*) AS 
@@ -158,9 +157,9 @@ FROM
 **Question 5**
 ---
 Write a SQL query to find the total income of employees aged 40 or above.
-
-Table: employee
 ```
+Table: employee
+
 name        type
 ----------  ----------
 id          INTEGER
@@ -168,7 +167,6 @@ name        TEXT
 age         INTEGER
 city        TEXT
 income      INTEGER
-
 ```
 ```
 SELECT
@@ -299,8 +297,8 @@ HAVING
 Write the SQL query that achieves the grouping of data by occupation, calculates the average work hours for each occupation, and includes only those occupations where the average work hour falls between 10 and 12.
 
 Sample table: employee1
-
 ```
+Result
 occupation  AVG(workhour)
 ----------  -------------
 Business    10.0
