@@ -38,7 +38,7 @@ END;
 Greater number is: 80
 
 ### Program
-
+```
 DECLARE
     num1 NUMBER := 80;  -- First number
     num2 NUMBER := 50;  -- Second number
@@ -49,7 +49,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num2);
     END IF;
 END;
-
+```
 ### Output
 ![image](https://github.com/user-attachments/assets/f710e18d-069e-4a86-a30a-ab599047da90)
 
@@ -68,7 +68,7 @@ END;
 Sum of first 10 natural numbers is: 55
 
 ### Program
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -83,7 +83,7 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || total_sum);
 END;
-
+```
 ### output
 
 ![image](https://github.com/user-attachments/assets/5d3792b8-094e-4a7b-8b2b-6c937c6a94a1)
@@ -103,7 +103,7 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 ### Program
 
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -126,7 +126,7 @@ BEGIN
     END LOOP;
 END;
 
-
+```
 ### Output
 
 ![image](https://github.com/user-attachments/assets/446d9757-6104-48d3-bdbb-78a931402e71)
@@ -146,7 +146,7 @@ n = 1535
 Reversed number is 5351
 
 ### Program
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -165,7 +165,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed);
 END;
 
-
+```
 ### Output
 
 ![image](https://github.com/user-attachments/assets/066ca7c4-1e5e-436b-9571-ba4338bb1271)
@@ -184,7 +184,7 @@ a = 10, b = 9, c = 15
 Largest of three number is 15
 
 ### Program
-
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -204,7 +204,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('a = ' || a || ', b = ' || b || ', c = ' || c);
     DBMS_OUTPUT.PUT_LINE('Largest of three number is ' || largest);
 END;
-
+```
 
 ### Output
 
